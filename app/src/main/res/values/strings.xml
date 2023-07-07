@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">app-calendario</string>
+
+    <!--Main activity-->
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+
+    <!--activity registro-->
+    <string name="CrearCuenta">Crear una Cuenta</string>
+    <string name="NombreEt">Nombre</string>
+    <string name="CorreoEt">Correo Electrónico</string>
+    <string name="ContraseñaEt">Contraseña</string>
+    <string name="ConfirmarContraseña">Confirmar Contraseña</string>
+    <string name="RegistaraUsuario">Registrar Usuario</string>
+    <string name="TengounaCuenta">Tengo una Cuenta</string>
+
+    <!--Menu Principal-->
+    <string name="CerrarSesion">Salir</string>
+
+    <!--activity Login-->
+    <string name="IniciarSesion">Iniciar Sesion</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_Logeo">Ingresar</string>
+    <string name="UsuarioNuevo">No tengo cuenta. Registrame</string>
+
+    <!--mMenu principal-->
+    <string name="BienvenidoPrincipal">Bienvenido (a)</string>
+    <string name="NombrePrincipal"> * * </string>
+    <string name="CorreoPrincipal"> * * </string>
+
+
+
+</resources>
