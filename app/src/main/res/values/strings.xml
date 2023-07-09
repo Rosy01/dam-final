@@ -29,6 +29,16 @@
     <string name="NombrePrincipal"> * * </string>
     <string name="CorreoPrincipal"> * * </string>
 
+    <!--Agregar Horario personalizado-->
+    <string name="uid_usuario">Usuario</string>
+    <string name="correo_Usuario"> Correo de Usuario</string>
+    <string name="fecha_hora_actual"> Fecha y hora actual</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="calendario">Calendario</string>
+    <string name="Fecha"> 00/00/0000 </string>
+    <string name="Estado">No finalizado</string>
+
 
 
 </resources>

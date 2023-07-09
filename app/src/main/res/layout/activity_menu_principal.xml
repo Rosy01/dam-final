@@ -25,40 +25,47 @@
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
-                    android:text="@string/BienvenidoPrincipal"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/worksans"
-                    android:textSize="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/worksans"
+                    android:padding="2dp"
+                    android:text="@string/BienvenidoPrincipal"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBarDatos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp" />
 
                 <!--Nombre-->
 
                 <TextView
                     android:id="@+id/NombrePrincipal"
-                    android:text="@string/NombrePrincipal"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/worksans"
-                    android:textSize="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/worksans"
+                    android:padding="10dp"
+                    android:text="@string/NombrePrincipal"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
 
                 <!--Correo-->
                 <TextView
                     android:id="@+id/CorreoPrincipal"
-                    android:text="@string/CorreoPrincipal"
-                    android:textColor="#fff"
-                    android:fontFamily="@font/worksans"
-                    android:textSize="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"/>
+                    android:fontFamily="@font/worksans"
+                    android:padding="10dp"
+                    android:text="@string/CorreoPrincipal"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
