@@ -69,7 +69,66 @@
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
+
         </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/worksans"
+            android:text="Calendario Personalizado"
+            android:textColor="#FFFDFD"
+            android:textSize="20dp"
+            android:background="@color/coloPrimaryDark"/>
+
+
+        <ImageView
+            android:id="@+id/calendariomenu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="calendariomenu"
+            android:src="@drawable/calendariomenu"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/worksans"
+            android:padding="2dp"
+            android:text="Horarios Cursos"
+            android:textColor="#FFFDFD"
+            android:textSize="20dp"
+            android:background="@color/coloPrimaryDark"/>
+
+        <ImageView
+            android:id="@+id/tareamenu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="tareamenu"
+            android:src="@drawable/tareamenu"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/worksans"
+            android:padding="2dp"
+            android:text="Recordatorios"
+            android:textColor="#FFFDFD"
+            android:textSize="20dp"
+            android:background="@color/coloPrimaryDark"/>
+
+        <ImageView
+            android:id="@+id/listamenu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="listamenu"
+            android:src="@drawable/listamenu"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/blancomenu" />
+
 
 
         <Button
@@ -78,7 +137,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 
 
 </ScrollView>

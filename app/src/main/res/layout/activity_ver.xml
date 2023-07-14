@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".VerActivity">
 
+    <ListView
+        android:id="@+id/ListViewEvento"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="82dp">
+
+    </ListView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ImageView;
+
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -41,6 +43,12 @@ public class MenuPrincipal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
 
+        ImageView calendariomenu = findViewById(R.id.calendariomenu);
+        ImageView tareamenu = findViewById(R.id.tareamenu);
+        ImageView listamenu = findViewById(R.id.listamenu);
+
+
+
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Agenda");
 
@@ -56,6 +64,8 @@ public class MenuPrincipal extends AppCompatActivity {
 
 
 
+
+
         //cerrar sesion
         CerrarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +73,7 @@ public class MenuPrincipal extends AppCompatActivity {
                 SalirAplicacion();
             }
         });
+
 
     }
 
@@ -118,4 +129,22 @@ public class MenuPrincipal extends AppCompatActivity {
     }
 
 
+    // BOTON PREGUNTA 1
+    public void tareamenu(View view) {
+        Intent tareamenu = new Intent(this, horariosCursos.class);
+        startActivity(tareamenu);
+    }
+
+    public void calendariomenu(View view) {
+        Intent calendariomenu = new Intent(this, CalendPersonalizado.class);
+        startActivity(calendariomenu);
+    }
+
+    public void listamenu(View view) {
+        Intent listamenu = new Intent(this, Recordatorios.class);
+        startActivity(listamenu);
+    }
+
+
 }
+

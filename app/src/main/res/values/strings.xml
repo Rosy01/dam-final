@@ -39,6 +39,9 @@
     <string name="Fecha"> 00/00/0000 </string>
     <string name="Estado">No finalizado</string>
 
+    <!--Agregar Evento-->
+    <string name="guardar_evento">GUARDAR</string>
+    <string name="cancelar_evento">CANCELAR</string>
 
 
 </resources>

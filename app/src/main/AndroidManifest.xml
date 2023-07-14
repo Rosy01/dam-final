@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Appcalendario"
         tools:targetApi="31">
         <activity
+            android:name=".AddCursos"
+            android:exported="false" />
+        <activity
+            android:name=".VerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Recordatorios"
+            android:exported="false" />
+        <activity
+            android:name=".horariosCursos"
+            android:exported="false" />
+        <activity
+            android:name=".CalendPersonalizado"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipal"
             android:exported="false" />
         <activity
